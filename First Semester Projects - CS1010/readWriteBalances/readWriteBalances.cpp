@@ -70,4 +70,4 @@ int main()
 	newBal.close();
 	system("pause");
 	return 0;
-} d
+}
