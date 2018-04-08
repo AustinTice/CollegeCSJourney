@@ -4,6 +4,6 @@
 #include "Headers.h"
 using namespace std;
 int main() {
-	cout << sqrtt(16);
+	cout << pwr(2,2); // Outputs 4
     return 0;
 }
