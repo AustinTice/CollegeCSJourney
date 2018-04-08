@@ -1,5 +1,3 @@
-
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -30,7 +28,6 @@ int main()
 }
 
 // Definition
-
 int average(int arr[]){
 	double total = 0;
 	double avg = 0;
