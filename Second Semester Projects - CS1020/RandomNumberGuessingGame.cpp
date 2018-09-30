@@ -1,7 +1,6 @@
 // AustinTiceLab1.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <iostream>
 #include <ctime>
 // user gets to guess the number
@@ -10,7 +9,6 @@
 
 int main()
 {
-
 	srand(time(0));
 
 	int favNumber = (rand() % 100) + 1;
@@ -40,4 +38,3 @@ int main()
 	system("pause");
 	return 0;
 }
-
