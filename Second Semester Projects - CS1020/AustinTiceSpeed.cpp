@@ -3,7 +3,6 @@
    9/10/2018
    This program will determine and output the speed of light under the 3 mediums air, water, and steel. Including user input and input validation.
 */
-#include "stdafx.h"
 #include <iostream>
 #include <iomanip>
 
@@ -22,7 +21,7 @@ int main(){
 }
 // This will show our menu
 void displayMenu(){
-	std::cout << "Select one of the following:\n\n" 
+	std::cout << "Select one of the following:\n\n"
 			  << " Medium\t\tSpeed" << std::endl
 		      << "1. Air\t\t1,100 ft/s" << std::endl
 			  << "2. Water\t4,900 ft/s" << std::endl
@@ -59,8 +58,8 @@ void displayTime(int userPick){
 		case 3:
 			timeItWouldTake = (userDistance / steelFeetPerSecond);
 			break;
-			
-	}	
+
+	}
 	//output our final string after getting all the appropriate information from the user.
 		std::cout << "It would take " << timeItWouldTake << " seconds to travel " << userDistance << " feet.\nThanks for playing!" << std::endl;
 }
